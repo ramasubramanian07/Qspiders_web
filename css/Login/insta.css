@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.outer{
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inner{
+	background-color: white;
+	width:400px;
+}
+.inner >header img{
+border-radius: 50%;
+width: 150px;
+height:150px;
+}
+main{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+footer{
+	margin-top: 20px;
+}
+footer >button{
+	padding: 10px 10px;
+	background-color: skyblue;
+	color:white;
+	border-radius: 20px;
+}

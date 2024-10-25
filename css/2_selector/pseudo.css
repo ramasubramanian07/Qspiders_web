@@ -1,0 +1,39 @@
+.container>button{
+	color: white;
+	background-color: red;
+}
+.container>button:hover{
+	background-color: blue;
+}
+.container>button:active{
+	background-color: yellow;
+}
+/* 3.First Child*/
+.container2 > h1:first-child{
+	color:red;
+}
+/* 4.Last Child */
+/* It will check whether the h1 is the last child of div if it is correct then it will apply otherwise not*/
+.container2 > h1:last-child{
+	color: green;
+}
+/* 5.First-of-type*/
+/*it will select first p tag inside the div*/
+.container2>p:first-of-type{
+	color:;
+}
+/* It will Select the last h1 tag in the div*/
+.container2>h1:last-of-type{
+	color:red;
+}
+/* Nth child*/
+
+.container3>ul>li:nth-child(2n){
+	color:yellow;
+}
+.container3>ul>li:nth-child(2n+1){
+	color:green;
+}
+.container3>ul>li:nth-child(3){
+	color:red;
+}

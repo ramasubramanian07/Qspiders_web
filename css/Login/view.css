@@ -1,0 +1,66 @@
+/*default value
+flex direction:row;
+justify-content:flex-start;
+align-items:strech;
+flex-wrap:
+order:0;
+flex-gorw:0;
+*/
+/*flex-wrap:wrap; is used to mobie view content will come down
+flex-wrap:wrap-reverse is used to content */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	height:450px;
+	border:2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.container>.box1{
+	width:75px;
+	border:1px solid red;
+}
+.container>#box2{
+	order:1;/*it will push at end*/
+	flex-grow: 1;/*it will increase the size get the size of the parent*/
+}
+.container>#box3{
+	flex-grow: 2;
+}
+.container>#box4{
+	flex-shrink: 1;
+}
+.container>#box6{
+	align-self: flex-start;
+}
+.container2{
+	height:400px;
+	background-color: black;
+	display: flex;
+	gap:30px;
+}
+.container2>.left{
+	flex-basis: 30%;
+	background-color: yellow;
+	display: flex;
+	justify-content: flex-end;
+}
+.container2>.right
+{
+	flex-basis: 50%;
+	background-color: red;
+	display: flex;
+	justify-content: flex-end;
+}
+.section{
+	height: 50px;
+	width:50px;
+	border:2px solid green;
+	background-color: white
+}

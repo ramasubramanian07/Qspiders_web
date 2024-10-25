@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding:0;
+}
+p{
+	color: red;
+}
+/*Descendant Selector*/
+.container4 p{
+	color:green;
+}
+.container p{
+	color:blue;
+}
+/*Select Parant element*/
+.container >p{
+	color:red;
+}
+.container <p{
+	color:yellow;
+}
+.container .container2 .container3 p{
+	color:violet;
+}
+
+/* general sibiling selector*/
+.container3>#p1 ~p{
+	color: black;
+}
+/* Adajacent sibiling selector*/
+.container3 > #p1 + p{
+	color: brown;
+}
+.container4 > button{
+	background-color: black;
+	color: white;
+}
+.container4> button:hover{
+	background-color: white;
+	color: black;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.outer{
+			height: 100vh;
+			background-color: black;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap:10px;
+		}
+		.outer>.inner{
+			height: 400px;
+			width: 400px;
+			border:1px solid white;
+		}
+		.outer>.inner2{
+			height: 400px;
+			width: 400px;
+			border:1px solid white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.inner>.box{
+			height:100px;
+			width:100px;
+			border:1px solid red;
+			/*transition: all 1px ease-in;*/
+			/*animation-name:rotate;
+			animation-duration:1s;
+			animation-timing-function: ease-in;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;*/
+			animation: rotate 5s linear infinite;
+		}
+		.inner2>.box1{
+			border-radius: 50%;
+			border:2px solid green;
+			width:100px;
+			height:100px;
+			animation: cir 3s linear infinite;
+		}
+
+		@keyframes cir{
+			from{
+				transform:rotate(0);
+			}
+			to{
+				transform:rotate(360deg);
+			}
+		}
+		/*.inner>.box:hover{
+			transform: translateX(300px);
+		}*/
+		@keyframes moving{
+			from{
+				transform: translateX(0);
+			}
+			to{
+				transform: translateX(300px);
+			}
+		}
+		@keyframes rotate{
+			0%{
+				
+				transform: translate(0,0);
+			}
+			25%{
+				transform: translate(300px,0);
+
+			}
+			50%{
+				transform: translate(300px,300px);
+
+			}
+			75%{
+				transform: translate(0,300px);
+
+			}
+		}
+		@keyframes rotate{
+			0%{
+				
+				transform: translate(0,0);
+			}
+			25%{
+				transform: translate(100px,0);
+
+			}
+			50%{
+				transform: translate(100px,100px);
+
+			}
+			75%{
+				transform: translate(0,100px);
+
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<div class="inner">
+			<div class="box">
+				
+			</div>
+		</div>
+		<div class="inner2">
+				<div class="box1"></div>
+			</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/*universal Selector*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: yellow;
+}
+h1{
+	text-align: center;
+	color: red;
+	padding: 30px;
+}
+p{
+	color: blue;
+	
+}
+/* id selector*/
+#para1{
+	color:green;
+}
+/*class Selector*/
+.para{
+	color:brown;
+}
+/* group Selector*/
+.para,#para1,#para2{
+	margin-left: 20px;
+	padding: 20px;
+}

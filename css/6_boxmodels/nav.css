@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+	height: 90px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head span{
+	color: red;
+	font-family: Poopins;
+	 margin-left: 5px;
+ 	font-weight: bold;
+
+}
+.head h1{
+ color: white;
+ font-family: Poopins;
+ font-weight: bold;
+}
+.content >ul{
+	display: flex;
+	list-style: none;
+	gap:30px;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+}
+.content > ul >li:hover{
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: orange;
+	transition: 0.6s;
+	transform: 
+}
+
+.end > button{
+	padding: 10px 20px;
+	border-radius: 10px;
+	width:90px;
+}
+.login{
+	background-color: blue;
+	color: white;
+}
+.login:hover{
+	background-color: darkblue;
+}
+.signup{
+	color: blue;
+}
+.signup:hover{
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+

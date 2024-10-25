@@ -1,0 +1,21 @@
+.container{
+	height:400px;
+	width:400px;
+	border: 2px solid black;
+}
+.white{
+	height:50px;
+	width:50px;
+	background-color: aliceblue;
+}
+.black{
+	height:50px;
+	width:50px;
+	background-color: black;
+}
+.row1{
+	display: flex;
+}
+.row2{
+	display:flex;
+}

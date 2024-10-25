@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding:0px;
+	/*Box-sizing :border-box used to fix the border eventhough u add the padding also */
+	box-sizing: border-box;
+}
+.container-1{
+	height:300px;
+	width:400px;
+	border:10px solid red;
+	/*padding  is used to give space between border and content*/
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+}
+.container-2{
+	height:300px;
+	width:400px;
+	border:10px solid green;
+	padding:30px;
+	/*top-right-bottom-left
+	padding: 20px 20px 10px 30px;*/
+	/*top-right*/
+	padding:20px 20px;
+	padding-inline:10px;
+	padding-block:30px;
+	/*margin is used to give the space between them*/
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.container-2>button{
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.container-3{
+	height:300px;
+	width:400px;
+	/*border:1 px solid red;*/
+	border-width: 2px;
+	border-style:solid;
+	border-color: black;
+	border-radius: 100%;
+}

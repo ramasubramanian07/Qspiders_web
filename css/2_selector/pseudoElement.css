@@ -1,0 +1,30 @@
+/*Pseudo Element selector Symbol is :: */;
+.container>p::first-line{
+	color:green;
+}
+
+.container >p::first-letter{
+	font-size: 60px;
+	color:red;
+}
+.container>p::first-line{
+	color:green;
+}
+.container2>ul>li::marker{
+	color: yellow;
+}
+.container2>ul>li:nth-child(2n)::marker{
+	color: red;
+}
+::selection{
+	color: white;
+	background-color: black;
+}
+.container >h3::after{
+	content: "**";
+	color: red;
+}
+.container>h3::before{
+	content: "**";
+	color: red;
+}

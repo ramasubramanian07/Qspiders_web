@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.outer{
+	height:100vh;
+	background:linear-gradient(to right,red,green,yellow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.outer>.inner{
+	height: 400px;
+	width:400px;
+	background:linear-gradient(to right,yellow,white);
+	position: relative;
+}
+.inner>.box{
+	height:70px;
+	width:70px;
+	border:1px solid;
+}
+/*relative:
+it will not affect other position
+it will from its current position
+In-that:
+we have to put only top,left,right,bottom because if you give margin-left it will other position */
+/*
+absolute
+it will come out of the original flow
+it will change its position based on its original document flow */
+#box1{
+	background-color: brown;
+	position: absolute;
+	left:330px;
+}
+#box2{
+	background-color: purple;
+	position: absolute;
+	top:330px;
+}
+#box3{
+	background-color: yellow;
+	position:absolute;
+	left:330px;
+	top:330px;
+}
+#box4{
+	background-color: red;
+	position: absolute;
+	left:50%;
+	top:50%;
+}
+#box5{
+	background-color: cyan;
+	position: relative;
+	margin-left: 50px;
+	bottom:30px;
+}
+
+

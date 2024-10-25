@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	height: 100vh;
+}
+.container>.content1{
+	background-color: rgb(71,71,189);
+	height: 60%;
+	display: flex;
+	align-items: center;
+}
+.content1>.text>h2{
+	color: white;
+	font-weight: bold;
+	font-family: poppins;
+}
+.content1>.text>p{
+	color: white;
+	margin-top: 10px;
+}
+.text{
+	flex-basis: 60%;
+	margin-left: 10px;
+}
+.text>.btn{
+	display: flex;
+	gap:20px;
+}
+button{
+	margin-top: 10px;
+	width: 15%;
+	padding: 10px;
+	background-color: white;
+	color: rgb(71,71,189);
+	border-radius: 30px;
+}
+.image{
+	flex-basis: 40%;
+	background-color: white;
+	width: 30%;
+	height:50vh;
+	margin-left: 50px;
+	margin-right: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image>img{
+	/*margin-left: 80px;*/
+	width:60vh;
+	height: 40vh;
+	border-radius: 30px;
+	text-align: center;
+}
+.container>.content2{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	gap:30px;
+	padding: 0px 20px;
+	margin-top: 20px;
+}
+.content2>.product1>img{
+	margin-left: 50px;
+	border-radius: 30px;
+}
+.content2>.product1>h3{
+	/*margin-left: 70px;*/
+	margin-top:5px; 
+	text-align: center;
+}
+.content2>.product1>p{
+	margin-top: 5px;
+	font-family: poppins;
+}
+.content2>#pro1>h3{
+	margin-left: -30px;
+}
+.content2>#pro2>h3{
+	margin-left: 40px;
+}
+.content2>#pro2>p{
+	margin-left: 40px;
+}
+.content2>#pro3>h3{
+	margin-left: -80px;
+}
+.content2>#pro3>img{
+	margin-left: 80px;
+}

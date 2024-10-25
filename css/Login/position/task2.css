@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.outer{
+	height: 100vh;
+	background:linear-gradient(to right,purple,white);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.inner{
+	width:500px;
+	height:500px;
+	background:linear-gradient(to right,yellow,orange);
+	border-radius: 40px;
+	position: relative;
+}
+.inner>.burger{
+	position: absolute;
+	bottom: 20px;
+}
+.inner>.juice{
+	position: absolute;
+	bottom: 20px;
+}
+.inner>.offer{
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+}

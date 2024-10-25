@@ -1,0 +1,23 @@
+.container>a[href]{
+	color:red;
+}
+/*using attribute accenss*/
+.container2>a[target="_blank"]{
+	color:orange;
+}
+.container3>input{
+	background-color:red;
+}
+.container3>input[type="text"]{
+	background-color: violet;
+}
+.container3>input[type="password"]{
+	background-color: black;
+}
+.container3>input[type="tel"]{
+	background-color: burlywood;
+}
+.container3>input[placeholder]
+{
+	color:black;
+}

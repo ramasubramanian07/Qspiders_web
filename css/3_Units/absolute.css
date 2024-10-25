@@ -1,0 +1,16 @@
+.container{
+	height:400px;
+	border:2px solid black;
+	width: 400px;
+
+}
+.container>.box1{
+	height:100px;
+	width:100px;
+	background-color: red;
+}
+.container>.box2{
+	height:100px;
+	width: 100px;
+	background-color: black;
+}
